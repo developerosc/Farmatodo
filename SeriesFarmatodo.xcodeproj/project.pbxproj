@@ -1,0 +1,872 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4145E58A2EA7539222E33C79 /* Pods_SeriesFarmatodo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5193629D59C0B4AE7A3969C /* Pods_SeriesFarmatodo.framework */; };
+		9B644E0F2655882E00DB1C03 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B644E0E2655882E00DB1C03 /* Detail.swift */; };
+		9B644E1426559B3700DB1C03 /* SesionLastObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B644E1326559B3700DB1C03 /* SesionLastObject.swift */; };
+		9B644E1926559B8500DB1C03 /* SingleLastObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B644E1826559B8500DB1C03 /* SingleLastObject.swift */; };
+		9B644E1E26559EB100DB1C03 /* GetLastClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B644E1D26559EB100DB1C03 /* GetLastClass.swift */; };
+		9BC3496826548FC500B52F36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC3496726548FC500B52F36 /* AppDelegate.swift */; };
+		9BC3496A26548FC500B52F36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC3496926548FC500B52F36 /* SceneDelegate.swift */; };
+		9BC3496C26548FC500B52F36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC3496B26548FC500B52F36 /* ViewController.swift */; };
+		9BC3496F26548FC500B52F36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BC3496D26548FC500B52F36 /* Main.storyboard */; };
+		9BC3497126548FCA00B52F36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BC3497026548FCA00B52F36 /* Assets.xcassets */; };
+		9BC3497426548FCA00B52F36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BC3497226548FCA00B52F36 /* LaunchScreen.storyboard */; };
+		9BC3497F26548FCA00B52F36 /* SeriesFarmatodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC3497E26548FCA00B52F36 /* SeriesFarmatodoTests.swift */; };
+		9BC3498A26548FCA00B52F36 /* SeriesFarmatodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC3498926548FCA00B52F36 /* SeriesFarmatodoUITests.swift */; };
+		9BC349A22654918000B52F36 /* Ws.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC349A12654918000B52F36 /* Ws.swift */; };
+		9BC349DB26549E5500B52F36 /* SpinnerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC349DA26549E5500B52F36 /* SpinnerController.swift */; };
+		9BC349E32654A38500B52F36 /* TopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC349E12654A38500B52F36 /* TopTableViewCell.swift */; };
+		9BC349E42654A38500B52F36 /* TopTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BC349E22654A38500B52F36 /* TopTableViewCell.xib */; };
+		9BC349E92654AF8500B52F36 /* ControlObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC349E82654AF8500B52F36 /* ControlObject.swift */; };
+		9BC349EE2654B0E700B52F36 /* GetSeriesClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC349ED2654B0E700B52F36 /* GetSeriesClass.swift */; };
+		9BC349F32654B1C600B52F36 /* SeriesTopObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC349F22654B1C600B52F36 /* SeriesTopObject.swift */; };
+		9BC349F82654B2B000B52F36 /* SingleAnimeObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC349F72654B2B000B52F36 /* SingleAnimeObject.swift */; };
+		9BC349FE2654C12B00B52F36 /* TopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC349FC2654C12B00B52F36 /* TopCollectionViewCell.swift */; };
+		9BC349FF2654C12B00B52F36 /* TopCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BC349FD2654C12B00B52F36 /* TopCollectionViewCell.xib */; };
+		9BC34A0C2655582B00B52F36 /* ForImageUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC34A0B2655582B00B52F36 /* ForImageUrl.swift */; };
+		BBB15CD616201D3B056E2235 /* Pods_SeriesFarmatodoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3886C3C24C5C4A15BCED8F50 /* Pods_SeriesFarmatodoTests.framework */; };
+		EA477355F019C849DBCF5BF3 /* Pods_SeriesFarmatodo_SeriesFarmatodoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4DED8A414BF9CB3A1990D98 /* Pods_SeriesFarmatodo_SeriesFarmatodoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BC3497B26548FCA00B52F36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BC3495C26548FC500B52F36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BC3496326548FC500B52F36;
+			remoteInfo = SeriesFarmatodo;
+		};
+		9BC3498626548FCA00B52F36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BC3495C26548FC500B52F36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BC3496326548FC500B52F36;
+			remoteInfo = SeriesFarmatodo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011E82FBE6CA1CE366099B7C /* Pods-SeriesFarmatodo-SeriesFarmatodoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeriesFarmatodo-SeriesFarmatodoUITests.debug.xcconfig"; path = "Target Support Files/Pods-SeriesFarmatodo-SeriesFarmatodoUITests/Pods-SeriesFarmatodo-SeriesFarmatodoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3886C3C24C5C4A15BCED8F50 /* Pods_SeriesFarmatodoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeriesFarmatodoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		976D32C28AF931C3DE9217CA /* Pods-SeriesFarmatodoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeriesFarmatodoTests.release.xcconfig"; path = "Target Support Files/Pods-SeriesFarmatodoTests/Pods-SeriesFarmatodoTests.release.xcconfig"; sourceTree = "<group>"; };
+		9B644E0E2655882E00DB1C03 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		9B644E1326559B3700DB1C03 /* SesionLastObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SesionLastObject.swift; sourceTree = "<group>"; };
+		9B644E1826559B8500DB1C03 /* SingleLastObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLastObject.swift; sourceTree = "<group>"; };
+		9B644E1D26559EB100DB1C03 /* GetLastClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetLastClass.swift; sourceTree = "<group>"; };
+		9BC3496426548FC500B52F36 /* SeriesFarmatodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeriesFarmatodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BC3496726548FC500B52F36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BC3496926548FC500B52F36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9BC3496B26548FC500B52F36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BC3496E26548FC500B52F36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BC3497026548FCA00B52F36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BC3497326548FCA00B52F36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BC3497526548FCA00B52F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BC3497A26548FCA00B52F36 /* SeriesFarmatodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeriesFarmatodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BC3497E26548FCA00B52F36 /* SeriesFarmatodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesFarmatodoTests.swift; sourceTree = "<group>"; };
+		9BC3498026548FCA00B52F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BC3498526548FCA00B52F36 /* SeriesFarmatodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeriesFarmatodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BC3498926548FCA00B52F36 /* SeriesFarmatodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesFarmatodoUITests.swift; sourceTree = "<group>"; };
+		9BC3498B26548FCA00B52F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BC349A12654918000B52F36 /* Ws.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ws.swift; sourceTree = "<group>"; };
+		9BC349CB26549AFD00B52F36 /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Pods/Alamofire/Source/Alamofire.swift; sourceTree = "<group>"; };
+		9BC349DA26549E5500B52F36 /* SpinnerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerController.swift; sourceTree = "<group>"; };
+		9BC349E12654A38500B52F36 /* TopTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTableViewCell.swift; sourceTree = "<group>"; };
+		9BC349E22654A38500B52F36 /* TopTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopTableViewCell.xib; sourceTree = "<group>"; };
+		9BC349E82654AF8500B52F36 /* ControlObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlObject.swift; sourceTree = "<group>"; };
+		9BC349ED2654B0E700B52F36 /* GetSeriesClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSeriesClass.swift; sourceTree = "<group>"; };
+		9BC349F22654B1C600B52F36 /* SeriesTopObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesTopObject.swift; sourceTree = "<group>"; };
+		9BC349F72654B2B000B52F36 /* SingleAnimeObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleAnimeObject.swift; sourceTree = "<group>"; };
+		9BC349FC2654C12B00B52F36 /* TopCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCollectionViewCell.swift; sourceTree = "<group>"; };
+		9BC349FD2654C12B00B52F36 /* TopCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopCollectionViewCell.xib; sourceTree = "<group>"; };
+		9BC34A0B2655582B00B52F36 /* ForImageUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForImageUrl.swift; sourceTree = "<group>"; };
+		B4DED8A414BF9CB3A1990D98 /* Pods_SeriesFarmatodo_SeriesFarmatodoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeriesFarmatodo_SeriesFarmatodoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6F3AF50451E5DF486CB0DFA /* Pods-SeriesFarmatodo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeriesFarmatodo.debug.xcconfig"; path = "Target Support Files/Pods-SeriesFarmatodo/Pods-SeriesFarmatodo.debug.xcconfig"; sourceTree = "<group>"; };
+		C09D984EE855D727F36003C6 /* Pods-SeriesFarmatodo-SeriesFarmatodoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeriesFarmatodo-SeriesFarmatodoUITests.release.xcconfig"; path = "Target Support Files/Pods-SeriesFarmatodo-SeriesFarmatodoUITests/Pods-SeriesFarmatodo-SeriesFarmatodoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DDFD7D4B624D3300AAF70EF8 /* Pods-SeriesFarmatodoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeriesFarmatodoTests.debug.xcconfig"; path = "Target Support Files/Pods-SeriesFarmatodoTests/Pods-SeriesFarmatodoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5193629D59C0B4AE7A3969C /* Pods_SeriesFarmatodo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeriesFarmatodo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB496309F12FFB27271B2C50 /* Pods-SeriesFarmatodo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeriesFarmatodo.release.xcconfig"; path = "Target Support Files/Pods-SeriesFarmatodo/Pods-SeriesFarmatodo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BC3496126548FC500B52F36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4145E58A2EA7539222E33C79 /* Pods_SeriesFarmatodo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC3497726548FCA00B52F36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB15CD616201D3B056E2235 /* Pods_SeriesFarmatodoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC3498226548FCA00B52F36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA477355F019C849DBCF5BF3 /* Pods_SeriesFarmatodo_SeriesFarmatodoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33A9199850345947226BA905 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6F3AF50451E5DF486CB0DFA /* Pods-SeriesFarmatodo.debug.xcconfig */,
+				EB496309F12FFB27271B2C50 /* Pods-SeriesFarmatodo.release.xcconfig */,
+				011E82FBE6CA1CE366099B7C /* Pods-SeriesFarmatodo-SeriesFarmatodoUITests.debug.xcconfig */,
+				C09D984EE855D727F36003C6 /* Pods-SeriesFarmatodo-SeriesFarmatodoUITests.release.xcconfig */,
+				DDFD7D4B624D3300AAF70EF8 /* Pods-SeriesFarmatodoTests.debug.xcconfig */,
+				976D32C28AF931C3DE9217CA /* Pods-SeriesFarmatodoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		92A2C23E552E8159D51EB329 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5193629D59C0B4AE7A3969C /* Pods_SeriesFarmatodo.framework */,
+				B4DED8A414BF9CB3A1990D98 /* Pods_SeriesFarmatodo_SeriesFarmatodoUITests.framework */,
+				3886C3C24C5C4A15BCED8F50 /* Pods_SeriesFarmatodoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BC3495B26548FC500B52F36 = {
+			isa = PBXGroup;
+			children = (
+				9BC349CB26549AFD00B52F36 /* Alamofire.swift */,
+				9BC3496626548FC500B52F36 /* SeriesFarmatodo */,
+				9BC3497D26548FCA00B52F36 /* SeriesFarmatodoTests */,
+				9BC3498826548FCA00B52F36 /* SeriesFarmatodoUITests */,
+				9BC3496526548FC500B52F36 /* Products */,
+				33A9199850345947226BA905 /* Pods */,
+				92A2C23E552E8159D51EB329 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9BC3496526548FC500B52F36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BC3496426548FC500B52F36 /* SeriesFarmatodo.app */,
+				9BC3497A26548FCA00B52F36 /* SeriesFarmatodoTests.xctest */,
+				9BC3498526548FCA00B52F36 /* SeriesFarmatodoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BC3496626548FC500B52F36 /* SeriesFarmatodo */ = {
+			isa = PBXGroup;
+			children = (
+				9BC349A02654908500B52F36 /* Model */,
+				9BC3499F2654907400B52F36 /* Views */,
+				9BC3499E2654906900B52F36 /* Controllers */,
+				9BC3499B26548FE800B52F36 /* Repositories */,
+				9BC3499A26548FDB00B52F36 /* Helpers */,
+				9BC3496726548FC500B52F36 /* AppDelegate.swift */,
+				9BC3496926548FC500B52F36 /* SceneDelegate.swift */,
+				9BC3497026548FCA00B52F36 /* Assets.xcassets */,
+				9BC3497526548FCA00B52F36 /* Info.plist */,
+			);
+			path = SeriesFarmatodo;
+			sourceTree = "<group>";
+		};
+		9BC3497D26548FCA00B52F36 /* SeriesFarmatodoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BC3497E26548FCA00B52F36 /* SeriesFarmatodoTests.swift */,
+				9BC3498026548FCA00B52F36 /* Info.plist */,
+			);
+			path = SeriesFarmatodoTests;
+			sourceTree = "<group>";
+		};
+		9BC3498826548FCA00B52F36 /* SeriesFarmatodoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BC3498926548FCA00B52F36 /* SeriesFarmatodoUITests.swift */,
+				9BC3498B26548FCA00B52F36 /* Info.plist */,
+			);
+			path = SeriesFarmatodoUITests;
+			sourceTree = "<group>";
+		};
+		9BC3499A26548FDB00B52F36 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9BC34A0B2655582B00B52F36 /* ForImageUrl.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9BC3499B26548FE800B52F36 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				9BC3499D2654900C00B52F36 /* BI */,
+				9BC3499C2654900100B52F36 /* WS */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		9BC3499C2654900100B52F36 /* WS */ = {
+			isa = PBXGroup;
+			children = (
+				9BC349A12654918000B52F36 /* Ws.swift */,
+			);
+			path = WS;
+			sourceTree = "<group>";
+		};
+		9BC3499D2654900C00B52F36 /* BI */ = {
+			isa = PBXGroup;
+			children = (
+				9BC349ED2654B0E700B52F36 /* GetSeriesClass.swift */,
+				9B644E1D26559EB100DB1C03 /* GetLastClass.swift */,
+			);
+			path = BI;
+			sourceTree = "<group>";
+		};
+		9BC3499E2654906900B52F36 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9BC3496B26548FC500B52F36 /* ViewController.swift */,
+				9BC349DA26549E5500B52F36 /* SpinnerController.swift */,
+				9B644E0E2655882E00DB1C03 /* Detail.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9BC3499F2654907400B52F36 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9BC349DF2654A2C300B52F36 /* ViewCells */,
+				9BC3496D26548FC500B52F36 /* Main.storyboard */,
+				9BC3497226548FCA00B52F36 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9BC349A02654908500B52F36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9BC349E82654AF8500B52F36 /* ControlObject.swift */,
+				9BC349F22654B1C600B52F36 /* SeriesTopObject.swift */,
+				9BC349F72654B2B000B52F36 /* SingleAnimeObject.swift */,
+				9B644E1326559B3700DB1C03 /* SesionLastObject.swift */,
+				9B644E1826559B8500DB1C03 /* SingleLastObject.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9BC349DF2654A2C300B52F36 /* ViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				9BC349E12654A38500B52F36 /* TopTableViewCell.swift */,
+				9BC349E22654A38500B52F36 /* TopTableViewCell.xib */,
+				9BC349FC2654C12B00B52F36 /* TopCollectionViewCell.swift */,
+				9BC349FD2654C12B00B52F36 /* TopCollectionViewCell.xib */,
+			);
+			path = ViewCells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BC3496326548FC500B52F36 /* SeriesFarmatodo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BC3498E26548FCA00B52F36 /* Build configuration list for PBXNativeTarget "SeriesFarmatodo" */;
+			buildPhases = (
+				181D7C3C2368C9DF2FD302C1 /* [CP] Check Pods Manifest.lock */,
+				9BC3496026548FC500B52F36 /* Sources */,
+				9BC3496126548FC500B52F36 /* Frameworks */,
+				9BC3496226548FC500B52F36 /* Resources */,
+				D28F8BE4F4760F1BACFBEA59 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeriesFarmatodo;
+			productName = SeriesFarmatodo;
+			productReference = 9BC3496426548FC500B52F36 /* SeriesFarmatodo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BC3497926548FCA00B52F36 /* SeriesFarmatodoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BC3499126548FCA00B52F36 /* Build configuration list for PBXNativeTarget "SeriesFarmatodoTests" */;
+			buildPhases = (
+				38C155234C885F53BC3627AC /* [CP] Check Pods Manifest.lock */,
+				9BC3497626548FCA00B52F36 /* Sources */,
+				9BC3497726548FCA00B52F36 /* Frameworks */,
+				9BC3497826548FCA00B52F36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BC3497C26548FCA00B52F36 /* PBXTargetDependency */,
+			);
+			name = SeriesFarmatodoTests;
+			productName = SeriesFarmatodoTests;
+			productReference = 9BC3497A26548FCA00B52F36 /* SeriesFarmatodoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BC3498426548FCA00B52F36 /* SeriesFarmatodoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BC3499426548FCA00B52F36 /* Build configuration list for PBXNativeTarget "SeriesFarmatodoUITests" */;
+			buildPhases = (
+				26655B39A92A0BD7D811322B /* [CP] Check Pods Manifest.lock */,
+				9BC3498126548FCA00B52F36 /* Sources */,
+				9BC3498226548FCA00B52F36 /* Frameworks */,
+				9BC3498326548FCA00B52F36 /* Resources */,
+				633A1B7D0927A51E0C032291 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BC3498726548FCA00B52F36 /* PBXTargetDependency */,
+			);
+			name = SeriesFarmatodoUITests;
+			productName = SeriesFarmatodoUITests;
+			productReference = 9BC3498526548FCA00B52F36 /* SeriesFarmatodoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BC3495C26548FC500B52F36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					9BC3496326548FC500B52F36 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					9BC3497926548FCA00B52F36 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 9BC3496326548FC500B52F36;
+					};
+					9BC3498426548FCA00B52F36 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 9BC3496326548FC500B52F36;
+					};
+				};
+			};
+			buildConfigurationList = 9BC3495F26548FC500B52F36 /* Build configuration list for PBXProject "SeriesFarmatodo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BC3495B26548FC500B52F36;
+			productRefGroup = 9BC3496526548FC500B52F36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BC3496326548FC500B52F36 /* SeriesFarmatodo */,
+				9BC3497926548FCA00B52F36 /* SeriesFarmatodoTests */,
+				9BC3498426548FCA00B52F36 /* SeriesFarmatodoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BC3496226548FC500B52F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BC3497426548FCA00B52F36 /* LaunchScreen.storyboard in Resources */,
+				9BC3497126548FCA00B52F36 /* Assets.xcassets in Resources */,
+				9BC3496F26548FC500B52F36 /* Main.storyboard in Resources */,
+				9BC349FF2654C12B00B52F36 /* TopCollectionViewCell.xib in Resources */,
+				9BC349E42654A38500B52F36 /* TopTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC3497826548FCA00B52F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC3498326548FCA00B52F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		181D7C3C2368C9DF2FD302C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeriesFarmatodo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26655B39A92A0BD7D811322B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeriesFarmatodo-SeriesFarmatodoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38C155234C885F53BC3627AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeriesFarmatodoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		633A1B7D0927A51E0C032291 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeriesFarmatodo-SeriesFarmatodoUITests/Pods-SeriesFarmatodo-SeriesFarmatodoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeriesFarmatodo-SeriesFarmatodoUITests/Pods-SeriesFarmatodo-SeriesFarmatodoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SeriesFarmatodo-SeriesFarmatodoUITests/Pods-SeriesFarmatodo-SeriesFarmatodoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D28F8BE4F4760F1BACFBEA59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeriesFarmatodo/Pods-SeriesFarmatodo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeriesFarmatodo/Pods-SeriesFarmatodo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SeriesFarmatodo/Pods-SeriesFarmatodo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BC3496026548FC500B52F36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BC349EE2654B0E700B52F36 /* GetSeriesClass.swift in Sources */,
+				9BC34A0C2655582B00B52F36 /* ForImageUrl.swift in Sources */,
+				9BC3496C26548FC500B52F36 /* ViewController.swift in Sources */,
+				9BC349E92654AF8500B52F36 /* ControlObject.swift in Sources */,
+				9BC349A22654918000B52F36 /* Ws.swift in Sources */,
+				9BC3496826548FC500B52F36 /* AppDelegate.swift in Sources */,
+				9BC3496A26548FC500B52F36 /* SceneDelegate.swift in Sources */,
+				9B644E1E26559EB100DB1C03 /* GetLastClass.swift in Sources */,
+				9B644E1426559B3700DB1C03 /* SesionLastObject.swift in Sources */,
+				9BC349F32654B1C600B52F36 /* SeriesTopObject.swift in Sources */,
+				9BC349DB26549E5500B52F36 /* SpinnerController.swift in Sources */,
+				9BC349E32654A38500B52F36 /* TopTableViewCell.swift in Sources */,
+				9BC349FE2654C12B00B52F36 /* TopCollectionViewCell.swift in Sources */,
+				9BC349F82654B2B000B52F36 /* SingleAnimeObject.swift in Sources */,
+				9B644E1926559B8500DB1C03 /* SingleLastObject.swift in Sources */,
+				9B644E0F2655882E00DB1C03 /* Detail.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC3497626548FCA00B52F36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BC3497F26548FCA00B52F36 /* SeriesFarmatodoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC3498126548FCA00B52F36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BC3498A26548FCA00B52F36 /* SeriesFarmatodoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BC3497C26548FCA00B52F36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BC3496326548FC500B52F36 /* SeriesFarmatodo */;
+			targetProxy = 9BC3497B26548FCA00B52F36 /* PBXContainerItemProxy */;
+		};
+		9BC3498726548FCA00B52F36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BC3496326548FC500B52F36 /* SeriesFarmatodo */;
+			targetProxy = 9BC3498626548FCA00B52F36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BC3496D26548FC500B52F36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BC3496E26548FC500B52F36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BC3497226548FCA00B52F36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BC3497326548FCA00B52F36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BC3498C26548FCA00B52F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BC3498D26548FCA00B52F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BC3498F26548FCA00B52F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6F3AF50451E5DF486CB0DFA /* Pods-SeriesFarmatodo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SeriesFarmatodo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oscar.SeriesFarmatodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BC3499026548FCA00B52F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB496309F12FFB27271B2C50 /* Pods-SeriesFarmatodo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SeriesFarmatodo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oscar.SeriesFarmatodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9BC3499226548FCA00B52F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFD7D4B624D3300AAF70EF8 /* Pods-SeriesFarmatodoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SeriesFarmatodoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oscar.SeriesFarmatodoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeriesFarmatodo.app/SeriesFarmatodo";
+			};
+			name = Debug;
+		};
+		9BC3499326548FCA00B52F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 976D32C28AF931C3DE9217CA /* Pods-SeriesFarmatodoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SeriesFarmatodoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oscar.SeriesFarmatodoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeriesFarmatodo.app/SeriesFarmatodo";
+			};
+			name = Release;
+		};
+		9BC3499526548FCA00B52F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 011E82FBE6CA1CE366099B7C /* Pods-SeriesFarmatodo-SeriesFarmatodoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SeriesFarmatodoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oscar.SeriesFarmatodoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SeriesFarmatodo;
+			};
+			name = Debug;
+		};
+		9BC3499626548FCA00B52F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C09D984EE855D727F36003C6 /* Pods-SeriesFarmatodo-SeriesFarmatodoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SeriesFarmatodoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oscar.SeriesFarmatodoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SeriesFarmatodo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BC3495F26548FC500B52F36 /* Build configuration list for PBXProject "SeriesFarmatodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BC3498C26548FCA00B52F36 /* Debug */,
+				9BC3498D26548FCA00B52F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BC3498E26548FCA00B52F36 /* Build configuration list for PBXNativeTarget "SeriesFarmatodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BC3498F26548FCA00B52F36 /* Debug */,
+				9BC3499026548FCA00B52F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BC3499126548FCA00B52F36 /* Build configuration list for PBXNativeTarget "SeriesFarmatodoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BC3499226548FCA00B52F36 /* Debug */,
+				9BC3499326548FCA00B52F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BC3499426548FCA00B52F36 /* Build configuration list for PBXNativeTarget "SeriesFarmatodoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BC3499526548FCA00B52F36 /* Debug */,
+				9BC3499626548FCA00B52F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BC3495C26548FC500B52F36 /* Project object */;
+}

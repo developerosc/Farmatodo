@@ -1,0 +1,6 @@
+framework module Pods_SeriesFarmatodo {
+  umbrella header "Pods-SeriesFarmatodo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.0.0)
+  - Gemini (1.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Gemini (= 1.2.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Gemini
+
+SPEC CHECKSUMS:
+  Alamofire: 58ff2bfb8daaacaa233d5c36e37b10a5248f59b1
+  Gemini: acff98012273066f1b83c887731260abfaf18ec5
+
+PODFILE CHECKSUM: 490012d5fc4de295a5cb440bfe681ea41769ac95
+
+COCOAPODS: 1.10.1
